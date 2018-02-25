@@ -1,5 +1,10 @@
 $mainBlue:#000025;
+
 body{
-  background: $mainBlue;
-  padding: 0px;
+  font-family: 'Roboto', sans-serif;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
 }

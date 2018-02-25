@@ -1,4 +1,8 @@
 body{
-  background: #000025;
-  padding: 0px;
+  font-family: 'Roboto', sans-serif;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
 }
