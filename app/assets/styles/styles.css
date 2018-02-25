@@ -1,0 +1,5 @@
+$mainBlue:#000025;
+body{
+  background: $mainBlue;
+  padding: 0px;
+}
