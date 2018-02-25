@@ -1,8 +1,2 @@
-body{
-  font-family: 'Roboto', sans-serif;
-}
-
-img {
-  max-width: 100%;
-  height: auto;
-}
+@import "normalize.css";
+@import "base/_global";
