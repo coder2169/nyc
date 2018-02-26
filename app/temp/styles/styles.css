@@ -341,6 +341,12 @@ template {
   display: none;
 }
 
+@define-mixin mobileExample {
+  @media (min-width: 400px){
+    @mixin-content;
+  }
+}
+
 * {
   box-sizing: border-box;
 }
@@ -352,4 +358,8 @@ body {
 img {
   max-width: 100%;
   height: auto;
+}
+
+.hero {
+  position: relative;
 }
