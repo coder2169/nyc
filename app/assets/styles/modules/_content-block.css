@@ -1,0 +1,9 @@
+.content-block {
+  margin-top: 40px;
+  margin-bottom: 40px;
+
+  &__blue {
+    background:#000033;
+    color: #fff;
+  }
+}
