@@ -12,10 +12,28 @@
 
   &__title {
     font-size: 1.5rem;
+
+    @mixin mobile {
+      font-size: 2.5rem;
+      color: blue;
+    }
+    @mixin desktop {
+      font-size: 3.8rem;
+      color: blue;
+    }
+
   }
 
   &__subtitle {
     font-size: 1rem;
+
+    @mixin mobile {
+      font-size: 1.5rem;
+    }
+    @mixin desktop {
+      font-size: 2.0rem;
+      color: blue;
+    }
   }
 
 }

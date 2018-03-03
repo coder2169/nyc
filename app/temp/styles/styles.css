@@ -341,12 +341,6 @@ template {
   display: none;
 }
 
-@define-mixin mobile{
-  @media (min-width: 400px){
-    @mixin-content;
-  }
-}
-
 * {
   box-sizing: border-box;
 }
@@ -373,6 +367,13 @@ p {
   margin-bottom: 10px;
 }
 
+@media (min-width: 776px){
+
+p {
+    max-width:615px
+}
+  }
+
 .hero {
   position: relative;
 
@@ -390,10 +391,44 @@ p {
 
 .hero__title {
     font-size: 1.5rem;
+
+  }
+
+@media (min-width: 600px){
+
+.hero__title {
+      font-size: 2.5rem;
+      color: blue
+
+  }
+  }
+
+@media (min-width: 900px){
+
+.hero__title {
+      font-size: 3.8rem;
+      color: blue
+
+  }
   }
 
 .hero__subtitle {
     font-size: 1rem;
+  }
+
+@media (min-width: 600px){
+
+.hero__subtitle {
+      font-size: 1.5rem
+  }
+  }
+
+@media (min-width: 900px){
+
+.hero__subtitle {
+      font-size: 2.0rem;
+      color: blue
+  }
   }
 
 .btn {
@@ -409,6 +444,14 @@ p {
     background:orange;
     padding:8.5px;
     font-size: 0.775rem;
+  }
+
+@media (min-width: 900px){
+
+.btn__cta {
+      font-size: 1rem;
+      padding: 10px
+  }
   }
 
 .content-block {
@@ -450,4 +493,15 @@ p {
 
 .header__sub {
     margin-bottom: 8px;
+  }
+
+.header__herosub {
+    margin-bottom: 8px;
+  }
+
+@media (min-width: 900px){
+
+.header__herosub {
+      margin-bottom: 15px
+  }
   }

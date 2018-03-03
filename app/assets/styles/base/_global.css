@@ -22,4 +22,8 @@ nav ul a {
 
 p {
   margin-bottom: 10px;
+
+  @mixin tablet {
+    max-width:615px;
+  }
 }

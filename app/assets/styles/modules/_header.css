@@ -4,4 +4,12 @@
   &__sub {
     margin-bottom: 8px;
   }
+
+  &__herosub {
+    margin-bottom: 8px;
+
+    @mixin desktop {
+      margin-bottom: 15px;
+    }
+  }
 }
