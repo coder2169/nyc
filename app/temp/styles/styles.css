@@ -341,7 +341,7 @@ template {
   display: none;
 }
 
-@define-mixin mobileExample {
+@define-mixin mobile{
   @media (min-width: 400px){
     @mixin-content;
   }
@@ -360,8 +360,22 @@ img {
   height: auto;
 }
 
+nav ul {
+  list-style-type: none;
+}
+
+nav ul a {
+  text-decoration: none;
+  font-size: .775rem;
+}
+
+p {
+  margin-bottom: 10px;
+}
+
 .hero {
   position: relative;
+
 }
 
 .hero__text-content {
@@ -374,13 +388,28 @@ img {
             transform: translateY(-50%);
   }
 
+.hero__title {
+    font-size: 1.5rem;
+  }
+
+.hero__subtitle {
+    font-size: 1rem;
+  }
+
 .btn {
   background: #333;
-  padding: 15px;
+  padding: 8px;
   color: #fff;
-  font-size: 0.875rem;
+  font-size: 0.6rem;
   box-shadow: 2px 2px 2px rgba(0,0,0,0.3);
+  border-radius: 2px;
 }
+
+.btn__cta {
+    background:orange;
+    padding:8.5px;
+    font-size: 0.775rem;
+  }
 
 .content-block {
   margin-top: 40px;
@@ -403,4 +432,22 @@ img {
 .features--icon {
     margin-left: 5px;
     margin-top: 5px;
+  }
+
+.intro__title {
+    font-size: 1.5rem;
+    text-align: left;
+  }
+
+.intro__subtitle {
+    font-size: 1rem;
+    text-align: left;
+  }
+
+.header {
+  margin: 0;
+}
+
+.header__sub {
+    margin-bottom: 8px;
   }

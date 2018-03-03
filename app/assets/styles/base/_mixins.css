@@ -1,4 +1,4 @@
-@define-mixin mobileExample {
+@define-mixin mobile{
   @media (min-width: 400px){
     @mixin-content;
   }
