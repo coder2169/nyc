@@ -1,6 +1,10 @@
 .hero {
   position: relative;
 
+  &__img {
+    border-bottom: 10px solid $divider_color;
+  }
+
   &__text-content {
     position: absolute;
     top: 50%;
@@ -12,27 +16,29 @@
 
   &__title {
     font-size: 1.5rem;
+    color: $text_icons;
+    text-shadow: 1px 1px 1px rgba(0,0,0,0.2);
+
 
     @mixin mobile {
       font-size: 2.5rem;
-      color: blue;
     }
     @mixin desktop {
       font-size: 3.8rem;
-      color: blue;
     }
 
   }
 
   &__subtitle {
     font-size: 1rem;
+    color: $text_icons;
+    text-shadow: 1px 1px 1px rgba(0,0,0,0.2);
 
     @mixin mobile {
       font-size: 1.5rem;
     }
     @mixin desktop {
       font-size: 2.0rem;
-      color: blue;
     }
   }
 

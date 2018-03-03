@@ -3,7 +3,8 @@
 }
 
 body {
-  color:red;
+  font-family: 'Roboto', sans-serif;
+  color:$primary_text;
 }
 
 img {
@@ -22,8 +23,14 @@ nav ul a {
 
 p {
   margin-bottom: 10px;
+  line-height: 1.25rem;
 
   @mixin tablet {
     max-width:615px;
   }
+}
+
+a {
+  text-decoration: none;
+  color: $secondary_text;
 }

@@ -3,10 +3,12 @@
   &__title {
     font-size: 1.5rem;
     text-align: left;
+    color: $light_primary_color;
   }
 
   &__subtitle {
     font-size: 1rem;
     text-align: left;
+    color: $light_primary_color;
   }
 }

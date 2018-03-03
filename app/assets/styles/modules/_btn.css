@@ -7,7 +7,7 @@
   border-radius: 2px;
 
   &__cta {
-    background:orange;
+    background:$accent_color;
     padding:8.5px;
     font-size: 0.775rem;
 
